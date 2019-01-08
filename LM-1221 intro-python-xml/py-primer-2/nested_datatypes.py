@@ -12,3 +12,18 @@ dessert={"iceCream":["Rocky Road","strawberry","Pistachio Cashew","Pecan Praline
 
 
 soup={"soup":{"tomato":"healthy","onion":"bleh!","vegetable":"good for you"}}
+
+
+print("My favorite dessert is " + food["desserts"][0])
+
+print("My favorite classic car is not American but is a Mercedes-Benz " + cars["classic"]["Mercedes-Benz"])
+
+
+for n in food["vegetables"]:
+    print("My favorite dessert is " + n)
+
+for s in soup["soup"]:
+    #print(s)
+    print(s + " " + soup["soup"][s])
+
+
